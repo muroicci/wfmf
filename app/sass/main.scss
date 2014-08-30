@@ -1,0 +1,58 @@
+@import "compass/reset";
+
+body{
+}
+
+#author{
+	position: absolute;
+	right:10px;
+	bottom:10px;
+
+	font-family: "Satisfy";
+	
+}
+
+ul{
+	display:block;
+	width:100%;
+	height: auto;
+	position: absolute;
+	top:0; right:0; bottom:0; left:0;
+	margin: auto;
+
+	li{
+		width:25%;
+		height: 100%;
+		display:block;
+		float:left;
+
+		span{
+			font-family: "Satisfy";
+			font-size: 15.0vw;
+			display:block;
+			margin: auto;
+			width:100%;
+			text-align: center;
+		}
+
+		&.yellow{
+			background-color: yellow;
+
+		}
+
+		&.green{
+			background-color: green;
+		}
+
+		&.blue{
+			background-color: blue;
+		}
+
+		&.red{
+			background-color: red;
+		}
+
+
+
+	}
+}
